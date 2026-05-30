@@ -3,6 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Bio from './Bio';
+import Time from './Time';
+import List from './List';
+import Count from './Count';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+    <Bio />
+    <Time />
+    <Count />
+    <List />
+  </React.StrictMode>
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
